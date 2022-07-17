@@ -4,12 +4,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
+}
+
+#ok{
+    user-select: none;
 }
 
 span{
     display: inline-block;
     font-weight: bold;
     font-size: 3em;
+}
+
+.dark{
+    background-color: rgb(29, 29, 29);
+    color:white;
 }
 
 .l {
